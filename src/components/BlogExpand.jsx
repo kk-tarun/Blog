@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/BlogExpand.css";
 import faang from "../images/FAANG_companies_1200x768 3.svg";
 import data_Structures from "../images/unsplash_NDfqqq_7QWM.svg";
@@ -5,7 +6,7 @@ import laptop from "../images/unsplash_95YRwf6CNw8.svg";
 
 const BlogExpand = ()=>{
     return(
-        <div className="container">
+        <div className="full_container">
             <div className="attachedImage">
                 <div className="intro">
                     <div className="heading">Guide for an Ultimate Tech Career</div>
@@ -127,7 +128,7 @@ const BlogExpand = ()=>{
                                     In the current fast-paced world where technology is changing every moment, your problem-solving skills are more valued than your knowledge of the ever changing tech-stack. Suppose your company moves to a different tech stack, you can still adapt if you are a good problem solver and know the logic behind the working of systems.
                                 </li>
                                 <li>
-                                    <span>br /ight personal career</span>
+                                    <span>Bright personal career</span>
                                     <br />
                                     Currently technical jobs are one of the most sought-after and high paying jobs in the industry. Making a career in the technical field gives promises of a br /ight future. Apart from this, in case you wish to switch to UI/UX or for some other role, then your technical knowledge gives you an extra edge compared to the other candidates. Thus, for making a transition to a tech career, DSA is extremely important.
                                 </li>
@@ -140,11 +141,11 @@ const BlogExpand = ()=>{
                 </div>
                 <div className="line"></div>
                 <div className="links">
-                    <div className="linkedin"></div>
-                    <div className="youtube"></div>
-                    <div className="facebook"></div>
-                    <div className="instagram"></div>
-                    <div className="telegram"></div>
+                    <Link to="#0" className="linkedin"></Link>
+                    <Link to="#0" className="youtube"></Link>
+                    <Link to="#0" className="facebook"></Link>
+                    <Link to="#0" className="instagram"></Link>
+                    <Link to="#0" className="telegram"></Link>
                 </div>
                 <div className="tags">
                     <div className="tag">Data Structures</div>

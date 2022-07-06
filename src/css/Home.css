@@ -25,6 +25,7 @@ a {
     background: #61A2C8;
     border-radius: 20.9653px;
     transform: rotate(0.28deg);
+    padding: 0.35em 0.65em;
 }
 
 .header{
@@ -39,14 +40,15 @@ a {
 .intro{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: flex-end;
     height: 200px;
     background-color: #FFFFFF;
+    margin-top: 15px;
 }
 
 .intro .author{
-    padding-left: 100px !important;
+    padding-left: 75px !important;
+    margin: 0;
+    text-align: left;
 }
 
 .heading{
@@ -85,9 +87,10 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin: 0 !important;
 }
 
-.interview_preparation{
+.interview_preparation_home{
     position: relative;
     top: -190px;
     left: 900px;
@@ -99,7 +102,7 @@ a {
     transform: rotate(0.28deg);
 }
 
-.interview_preparation span{
+.interview_preparation_home span{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -130,8 +133,8 @@ a {
     border-right: 350px solid transparent; 
 }
 
-.title button{
-    border-radius: 50%;
+.right img{
+    padding: 10px 0;
 }
 
 .btn-img {
@@ -142,6 +145,7 @@ a {
     height: 62px;
     background: linear-gradient(143.77deg, #3E8EBC 5.24%, #444BAB 84.52%);
     border: none;
+    border-radius: 50% !important;
 }
 
 .shadow-bottom{

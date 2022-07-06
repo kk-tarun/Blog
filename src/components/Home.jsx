@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../css/Landing.css'
+import '../css/Home.css'
 
 function Landing() {
   return (
@@ -40,13 +40,13 @@ function Landing() {
               <span>A comprehensive guide on How to start a Career in Technology. It covers the skills required and how to prepare to transition to a tech career.</span>
               </div>
               <div className="author">By Vivekanand Vivek</div>
-              <div className="interview_preparation"><span>Interview Preparation</span></div>
+              <div className="interview_preparation_home"><span>Interview Preparation</span></div>
             </div>
           </div>
           <div className="right">
-          <button type="button" className="btn btn-primary btn-img">
+            <Link to='./Form' className="btn btn-img">
               <img src={require("../images/plus.png")} alt="" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ function Landing() {
       <div className="container mt-5">
         <div className="row">
           {/*BOTTOM CARD 1*/}
-          <div className="col-sm-8 mb-4">
+          <div className="col-sm-8">
             <div className="card shadow-bottom">
               <Link to="/" className="text-dark text-decoration-none">
                 <img
@@ -272,11 +272,11 @@ function Landing() {
           {/*BOTTOM CARD 4*/}
           <div className="col-sm-4">
               <div className="card-body links">
-                <div className="linkedin"></div>
-                <div className="youtube"></div>
-                <div className="facebook"></div>
-                <div className="instagram"></div>
-                <div className="telegram"></div>
+              <Link to="#0" className="linkedin"></Link>
+              <Link to="#0" className="youtube"></Link>
+              <Link to="#0" className="facebook"></Link>
+              <Link to="#0" className="instagram"></Link>
+              <Link to="#0" className="telegram"></Link>
               </div>
           </div>
           {/*BOTTOM CARD 4*/}
