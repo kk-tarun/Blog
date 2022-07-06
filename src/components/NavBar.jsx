@@ -6,10 +6,10 @@ const NavBar=()=>{
     return (
         <div id="navbar">
             <div className="innerContent">
-                <div id="pplogo">
+                <Link to="/" id="pplogo">
                     <img src={logo} id="logo" alt="logo"/>
                     <p id="company-name">Programming Pathshala</p>
-                </div>
+                </Link>
                 <div id="tags">
                     <div>
                     <p id="tag-1"><Link to="/">Renaissance</Link></p>
