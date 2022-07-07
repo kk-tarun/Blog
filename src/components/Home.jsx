@@ -56,7 +56,7 @@ function Landing() {
         <div className="row">
           {/*MIDDLE CARD 1*/}
           <div className="col">
-            <div className="card h-100 shadow-bottom pt-5">
+            <div className="card h-100 shadow-bottom">
               <Link to="/" className="text-dark text-decoration-none">
                 <img
                   src={require("../images/FAANG_companies_1200x768 2.jpg")}
@@ -69,10 +69,10 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
-                <Link to="/" className="text-dark text-decoration-none">
+              <Link to="/" className="card-body">
+                <div className="text-dark text-decoration-none">
                   <h5 className="card-title">
-                    10 Most Common Mistakes To Avoid While Preparing for FAANG
+                  10 Most Common Mistakes To Avoid While Preparing for FAANG
                     Company Coding Interviews
                   </h5>
                   <p className="card-text">
@@ -80,11 +80,11 @@ function Landing() {
                       JUNE 9, 2021 | 5 MINS READ
                     </small>
                   </p>
-                </Link>
+                </div>
                 <Link to="/" className="author text-decoration-none">
-                  By Vivekanand Vivek
+                By Vivekanand Vivek
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*MIDDLE CARD 1*/}
@@ -103,8 +103,8 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
-                <Link to="/" className="text-dark text-decoration-none">
+              <Link to="/" className="card-body">
+                <div className="text-dark text-decoration-none">
                   <h5 className="card-title">
                     Asymptotic Analysis of Different Data Structures Operations
                   </h5>
@@ -113,11 +113,11 @@ function Landing() {
                       JUNE 9, 2021 | 5 MINS READ
                     </small>
                   </p>
-                </Link>
+                </div>
                 <Link to="/" className="author text-decoration-none">
                   By Bharat Khanna
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*MIDDLE CARD 2*/}
@@ -136,8 +136,8 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
-                <Link to="/" className="text-dark text-decoration-none">
+              <Link to="/" className="card-body">
+                <div className="text-dark text-decoration-none">
                   <h5 className="card-title">
                     Roadmap to be a Candidate Master at Codeforces
                   </h5>
@@ -146,11 +146,11 @@ function Landing() {
                       JUNE 9, 2021 | 5 MINS READ
                     </small>
                   </p>
-                </Link>
+                </div>
                 <Link to="/" className="author text-decoration-none">
                   By Bharat Khanna
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*MIDDLE CARD 3*/}
@@ -174,8 +174,8 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
-                <Link to="/" className="text-dark text-decoration-none">
+              <Link to="/" className="card-body">
+                <div className="text-dark text-decoration-none">
                   <h5 className="card-title">
                     10 Most Common Mistakes To Avoid While Preparing for FAANG
                     Company Coding Interviews
@@ -185,11 +185,11 @@ function Landing() {
                       JUNE 9, 2021 | 5 MINS READ
                     </small>
                   </p>
-                </Link>
+                </div>
                 <Link to="/" className="author text-decoration-none">
                   By Vivekanand Vivek
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*BOTTOM CARD 1*/}
@@ -251,7 +251,7 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
+              <Link to="/" className="card-body">
                 <Link to="/" className="text-dark text-decoration-none">
                   <h5 className="card-title">
                     Asymptotic Analysis of Different Data Structures Operations
@@ -265,7 +265,7 @@ function Landing() {
                 <Link to="/" className="author text-decoration-none">
                   By Vivekanand Vivek
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*BOTTOM CARD 3*/}
@@ -295,8 +295,8 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
-                <Link to="/" className="text-dark text-decoration-none">
+              <Link to="/" className="card-body">
+                <div className="text-dark text-decoration-none">
                   <h5 className="card-title">
                     10 Most Common Mistakes To Avoid While Preparing for FAANG
                     Company Coding Interviews
@@ -306,11 +306,11 @@ function Landing() {
                       JUNE 9, 2021 | 5 MINS READ
                     </small>
                   </p>
-                </Link>
+                </div>
                 <Link to="/" className="author text-decoration-none">
                   By Vivekanand Vivek
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*BOTTOM CARD 5*/}
@@ -329,7 +329,7 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
+              <Link to="/" className="card-body">
                 <Link to="/" className="text-dark text-decoration-none">
                   <h5 className="card-title">
                     Roadmap to be a Candidate Master at Codeforces
@@ -343,7 +343,7 @@ function Landing() {
                 <Link to="/" className="author text-decoration-none">
                   By Vivekanand Vivek
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*BOTTOM CARD 6*/}
@@ -362,8 +362,8 @@ function Landing() {
                   </span>
                 </div>
               </Link>
-              <div className="card-body">
-                <Link to="/" className="text-dark text-decoration-none">
+              <Link to="/" className="card-body">
+                <div className="text-dark text-decoration-none">
                   <h5 className="card-title">
                     10 Most Common Mistakes To Avoid While Preparing for FAANG
                     Company Coding Interviews
@@ -373,11 +373,11 @@ function Landing() {
                       JUNE 9, 2021 | 5 MINS READ
                     </small>
                   </p>
-                </Link>
+                </div>
                 <Link to="/" className="author text-decoration-none">
                   By Vivekanand Vivek
                 </Link>
-              </div>
+              </Link>
             </div>
           </div>
           {/*BOTTOM CARD 7*/}
